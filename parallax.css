@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+}
+
+div {
+  margin: 0;
+  /*height: 100%;*/
+}
+
+#one, #two, #three, #four {
+  height: 470px;
+}
+
+#one {
+  background-image: url('angel_falls.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+#two {
+  background-image: url('angel_falls2.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+#three {
+  background-image: url('ocean_purple.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+#four {
+  background-image: url('waterfall.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+#balloons_up {
+  /*background-image: url('balloons_up.png');*/
+  /*background-repeat: no-repeat;*/
+  /*background-position: 0 0;*/
+  position: absolute;
+  right: 200px;
+  top: 1100px;
+  height: 300px;
+  /*z-index: 10;*/
+}
+
+.white_background {
+  background-color: #fff;
+  height: 200px;
+}
